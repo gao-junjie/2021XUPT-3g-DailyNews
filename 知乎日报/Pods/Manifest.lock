@@ -1,0 +1,32 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - JSONModel (1.8.0)
+  - Masonry (1.1.0)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+
+DEPENDENCIES:
+  - FMDB
+  - JSONModel
+  - Masonry
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - JSONModel
+    - Masonry
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+
+PODFILE CHECKSUM: badc1b97de7ed3968740a439d061ccf1fceb7d58
+
+COCOAPODS: 1.10.2

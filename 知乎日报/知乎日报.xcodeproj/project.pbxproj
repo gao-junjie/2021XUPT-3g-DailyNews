@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0412CB1827358F3E0045E857 /* LongCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CB1727358F3E0045E857 /* LongCommentModel.m */; };
+		0412CB21273963D50045E857 /* LongCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CB20273963D50045E857 /* LongCommentTableViewCell.m */; };
+		0412CB68273B4C970045E857 /* ReplyCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CB67273B4C970045E857 /* ReplyCommentTableViewCell.m */; };
+		0412CB6A273C08FD0045E857 /* dianzan-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0412CB69273C08FC0045E857 /* dianzan-3.png */; };
+		0412CB6C273C09030045E857 /* dianzan-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0412CB6B273C09020045E857 /* dianzan-4.png */; };
+		0412CB6E273C09080045E857 /* pinglun.png in Resources */ = {isa = PBXBuildFile; fileRef = 0412CB6D273C09080045E857 /* pinglun.png */; };
+		0412CB71273CFF060045E857 /* WebPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CB70273CFF060045E857 /* WebPageModel.m */; };
+		0412CB7A273D17CD0045E857 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CB79273D17CD0045E857 /* CollectionViewController.m */; };
+		0412CB7D273D17E30045E857 /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CB7C273D17E30045E857 /* CollectionView.m */; };
+		041416F7273FE9AF004F5980 /* WebPageCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 041416F6273FE9AF004F5980 /* WebPageCollectionModel.m */; };
+		041416FA2740365E004F5980 /* CollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041416F92740365E004F5980 /* CollectionTableViewCell.m */; };
+		047FDB05273167F8001F8019 /* dianzan.png in Resources */ = {isa = PBXBuildFile; fileRef = 047FDB04273167F8001F8019 /* dianzan.png */; };
+		047FDB0927316823001F8019 /* shoucang.png in Resources */ = {isa = PBXBuildFile; fileRef = 047FDB0827316823001F8019 /* shoucang.png */; };
+		047FDB0D27316A51001F8019 /* fenxiang.png in Resources */ = {isa = PBXBuildFile; fileRef = 047FDB0C27316A51001F8019 /* fenxiang.png */; };
+		047FDB0F27316B81001F8019 /* daipingjia.png in Resources */ = {isa = PBXBuildFile; fileRef = 047FDB0E27316B81001F8019 /* daipingjia.png */; };
+		047FDB1127340EE5001F8019 /* dianzan-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 047FDB1027340EE4001F8019 /* dianzan-2.png */; };
+		047FDB1327341004001F8019 /* shoucang-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 047FDB1227341003001F8019 /* shoucang-2.png */; };
+		047FDB1A2734143B001F8019 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FDB192734143B001F8019 /* CommentView.m */; };
+		047FDB1D2734144D001F8019 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FDB1C2734144D001F8019 /* CommentViewController.m */; };
+		04DFDB37272C154B0035987C /* TimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFDB36272C154B0035987C /* TimeTableViewCell.m */; };
+		04DFDB39272C55A50035987C /* grayPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DFDB38272C55A50035987C /* grayPic.jpg */; };
+		04DFDB42272EA7900035987C /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFDB41272EA7900035987C /* WebPageViewController.m */; };
+		04DFDB46272EA7AE0035987C /* WebPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFDB45272EA7AE0035987C /* WebPageView.m */; };
+		04F35E8E271F0244003AD525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35E8D271F0244003AD525 /* AppDelegate.m */; };
+		04F35E91271F0244003AD525 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35E90271F0244003AD525 /* SceneDelegate.m */; };
+		04F35E94271F0244003AD525 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35E93271F0244003AD525 /* ViewController.m */; };
+		04F35E97271F0244003AD525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F35E95271F0244003AD525 /* Main.storyboard */; };
+		04F35E99271F0246003AD525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F35E98271F0246003AD525 /* Assets.xcassets */; };
+		04F35E9C271F0246003AD525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F35E9A271F0246003AD525 /* LaunchScreen.storyboard */; };
+		04F35E9F271F0246003AD525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35E9E271F0246003AD525 /* main.m */; };
+		04F35EA9271F0246003AD525 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35EA8271F0246003AD525 /* ____Tests.m */; };
+		04F35EB4271F0246003AD525 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35EB3271F0246003AD525 /* ____UITests.m */; };
+		04F35ECB271FF8BD003AD525 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35ECA271FF8BD003AD525 /* HomeView.m */; };
+		04F35ED127200E72003AD525 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35ED027200E72003AD525 /* HomeViewController.m */; };
+		04F35EDA272015D4003AD525 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35ED9272015D4003AD525 /* Manager.m */; };
+		04F35EDD27201A9A003AD525 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35EDC27201A9A003AD525 /* HomeModel.m */; };
+		04F35EE32721478B003AD525 /* ArticalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35EE22721478B003AD525 /* ArticalTableViewCell.m */; };
+		04F35EED2728690A003AD525 /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F35EEC27286909003AD525 /* pic5.jpg */; };
+		04F35EF627286C51003AD525 /* PersonalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35EF527286C51003AD525 /* PersonalView.m */; };
+		04F35EF927286DE4003AD525 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F35EF827286DE4003AD525 /* PersonalViewController.m */; };
+		04F35EFB2728729A003AD525 /* fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F35EFA2728729A003AD525 /* fanhui.png */; };
+		407FA757962943B324B95005 /* libPods-知乎日报.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4091334965CE0C14BEB4E8C /* libPods-知乎日报.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F35EA5271F0246003AD525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F35E81271F0244003AD525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F35E88271F0244003AD525;
+			remoteInfo = "知乎日报";
+		};
+		04F35EB0271F0246003AD525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F35E81271F0244003AD525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F35E88271F0244003AD525;
+			remoteInfo = "知乎日报";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0412CB1627358F3E0045E857 /* LongCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LongCommentModel.h; path = "知乎日报/COMMENT/CommentController/LongCommentModel.h"; sourceTree = SOURCE_ROOT; };
+		0412CB1727358F3E0045E857 /* LongCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LongCommentModel.m; path = "知乎日报/COMMENT/CommentController/LongCommentModel.m"; sourceTree = SOURCE_ROOT; };
+		0412CB1F273963D50045E857 /* LongCommentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongCommentTableViewCell.h; sourceTree = "<group>"; };
+		0412CB20273963D50045E857 /* LongCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongCommentTableViewCell.m; sourceTree = "<group>"; };
+		0412CB66273B4C970045E857 /* ReplyCommentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplyCommentTableViewCell.h; sourceTree = "<group>"; };
+		0412CB67273B4C970045E857 /* ReplyCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplyCommentTableViewCell.m; sourceTree = "<group>"; };
+		0412CB69273C08FC0045E857 /* dianzan-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dianzan-3.png"; sourceTree = "<group>"; };
+		0412CB6B273C09020045E857 /* dianzan-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dianzan-4.png"; sourceTree = "<group>"; };
+		0412CB6D273C09080045E857 /* pinglun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinglun.png; sourceTree = "<group>"; };
+		0412CB6F273CFF060045E857 /* WebPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPageModel.h; sourceTree = "<group>"; };
+		0412CB70273CFF060045E857 /* WebPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebPageModel.m; sourceTree = "<group>"; };
+		0412CB78273D17CD0045E857 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		0412CB79273D17CD0045E857 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		0412CB7B273D17E30045E857 /* CollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionView.h; sourceTree = "<group>"; };
+		0412CB7C273D17E30045E857 /* CollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
+		041416F5273FE9AF004F5980 /* WebPageCollectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPageCollectionModel.h; sourceTree = "<group>"; };
+		041416F6273FE9AF004F5980 /* WebPageCollectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebPageCollectionModel.m; sourceTree = "<group>"; };
+		041416F82740365E004F5980 /* CollectionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionTableViewCell.h; sourceTree = "<group>"; };
+		041416F92740365E004F5980 /* CollectionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionTableViewCell.m; sourceTree = "<group>"; };
+		047FDB04273167F8001F8019 /* dianzan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dianzan.png; sourceTree = "<group>"; };
+		047FDB0827316823001F8019 /* shoucang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoucang.png; sourceTree = "<group>"; };
+		047FDB0C27316A51001F8019 /* fenxiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fenxiang.png; sourceTree = "<group>"; };
+		047FDB0E27316B81001F8019 /* daipingjia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daipingjia.png; sourceTree = "<group>"; };
+		047FDB1027340EE4001F8019 /* dianzan-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dianzan-2.png"; sourceTree = "<group>"; };
+		047FDB1227341003001F8019 /* shoucang-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoucang-2.png"; sourceTree = "<group>"; };
+		047FDB182734143B001F8019 /* CommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		047FDB192734143B001F8019 /* CommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		047FDB1B2734144D001F8019 /* CommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		047FDB1C2734144D001F8019 /* CommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		04DFDB35272C154B0035987C /* TimeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeTableViewCell.h; sourceTree = "<group>"; };
+		04DFDB36272C154B0035987C /* TimeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTableViewCell.m; sourceTree = "<group>"; };
+		04DFDB38272C55A50035987C /* grayPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grayPic.jpg; sourceTree = "<group>"; };
+		04DFDB40272EA7900035987C /* WebPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPageViewController.h; sourceTree = "<group>"; };
+		04DFDB41272EA7900035987C /* WebPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
+		04DFDB44272EA7AE0035987C /* WebPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPageView.h; sourceTree = "<group>"; };
+		04DFDB45272EA7AE0035987C /* WebPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebPageView.m; sourceTree = "<group>"; };
+		04F35E89271F0244003AD525 /* 知乎日报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "知乎日报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F35E8C271F0244003AD525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F35E8D271F0244003AD525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F35E8F271F0244003AD525 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04F35E90271F0244003AD525 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04F35E92271F0244003AD525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F35E93271F0244003AD525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F35E96271F0244003AD525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F35E98271F0246003AD525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F35E9B271F0246003AD525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F35E9D271F0246003AD525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F35E9E271F0246003AD525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F35EA4271F0246003AD525 /* 知乎日报Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "知乎日报Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F35EA8271F0246003AD525 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		04F35EAA271F0246003AD525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F35EAF271F0246003AD525 /* 知乎日报UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "知乎日报UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F35EB3271F0246003AD525 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		04F35EB5271F0246003AD525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F35EC9271FF8BD003AD525 /* HomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		04F35ECA271FF8BD003AD525 /* HomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		04F35ECF27200E72003AD525 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		04F35ED027200E72003AD525 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		04F35ED8272015D4003AD525 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		04F35ED9272015D4003AD525 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		04F35EDB27201A9A003AD525 /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		04F35EDC27201A9A003AD525 /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		04F35EE12721478B003AD525 /* ArticalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticalTableViewCell.h; sourceTree = "<group>"; };
+		04F35EE22721478B003AD525 /* ArticalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticalTableViewCell.m; sourceTree = "<group>"; };
+		04F35EEC27286909003AD525 /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic5.jpg; sourceTree = "<group>"; };
+		04F35EF427286C51003AD525 /* PersonalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalView.h; sourceTree = "<group>"; };
+		04F35EF527286C51003AD525 /* PersonalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalView.m; sourceTree = "<group>"; };
+		04F35EF727286DE4003AD525 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		04F35EF827286DE4003AD525 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		04F35EFA2728729A003AD525 /* fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanhui.png; sourceTree = "<group>"; };
+		09D20B6CFB4E45336B63D43C /* Pods-知乎日报.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-知乎日报.debug.xcconfig"; path = "Target Support Files/Pods-知乎日报/Pods-知乎日报.debug.xcconfig"; sourceTree = "<group>"; };
+		24E9974727D6AD1D794B0DE6 /* Pods-知乎日报.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-知乎日报.release.xcconfig"; path = "Target Support Files/Pods-知乎日报/Pods-知乎日报.release.xcconfig"; sourceTree = "<group>"; };
+		E4091334965CE0C14BEB4E8C /* libPods-知乎日报.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-知乎日报.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F35E86271F0244003AD525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407FA757962943B324B95005 /* libPods-知乎日报.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F35EA1271F0246003AD525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F35EAC271F0246003AD525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0412CB72273D16860045E857 /* COLLECTION */ = {
+			isa = PBXGroup;
+			children = (
+				0412CB75273D16FD0045E857 /* CollectionModel */,
+				0412CB74273D16FB0045E857 /* CollectionView */,
+				0412CB77273D17610045E857 /* CollectionController */,
+			);
+			path = COLLECTION;
+			sourceTree = "<group>";
+		};
+		0412CB73273D16C00045E857 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				04DFDB38272C55A50035987C /* grayPic.jpg */,
+				04F35EEC27286909003AD525 /* pic5.jpg */,
+				04F35EFA2728729A003AD525 /* fanhui.png */,
+				047FDB04273167F8001F8019 /* dianzan.png */,
+				047FDB1027340EE4001F8019 /* dianzan-2.png */,
+				0412CB69273C08FC0045E857 /* dianzan-3.png */,
+				0412CB6B273C09020045E857 /* dianzan-4.png */,
+				0412CB6D273C09080045E857 /* pinglun.png */,
+				047FDB0C27316A51001F8019 /* fenxiang.png */,
+				047FDB0E27316B81001F8019 /* daipingjia.png */,
+				047FDB0827316823001F8019 /* shoucang.png */,
+				047FDB1227341003001F8019 /* shoucang-2.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		0412CB74273D16FB0045E857 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0412CB7B273D17E30045E857 /* CollectionView.h */,
+				0412CB7C273D17E30045E857 /* CollectionView.m */,
+				041416F82740365E004F5980 /* CollectionTableViewCell.h */,
+				041416F92740365E004F5980 /* CollectionTableViewCell.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		0412CB75273D16FD0045E857 /* CollectionModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CollectionModel;
+			path = "New Group/CollectionModel";
+			sourceTree = "<group>";
+		};
+		0412CB77273D17610045E857 /* CollectionController */ = {
+			isa = PBXGroup;
+			children = (
+				0412CB78273D17CD0045E857 /* CollectionViewController.h */,
+				0412CB79273D17CD0045E857 /* CollectionViewController.m */,
+			);
+			path = CollectionController;
+			sourceTree = "<group>";
+		};
+		047FDB14273413E5001F8019 /* COMMENT */ = {
+			isa = PBXGroup;
+			children = (
+				047FDB1727341403001F8019 /* CommentModel */,
+				047FDB1627341401001F8019 /* CommentView */,
+				047FDB15273413FF001F8019 /* CommentController */,
+			);
+			path = COMMENT;
+			sourceTree = "<group>";
+		};
+		047FDB15273413FF001F8019 /* CommentController */ = {
+			isa = PBXGroup;
+			children = (
+				047FDB1B2734144D001F8019 /* CommentViewController.h */,
+				047FDB1C2734144D001F8019 /* CommentViewController.m */,
+			);
+			path = CommentController;
+			sourceTree = "<group>";
+		};
+		047FDB1627341401001F8019 /* CommentView */ = {
+			isa = PBXGroup;
+			children = (
+				047FDB182734143B001F8019 /* CommentView.h */,
+				047FDB192734143B001F8019 /* CommentView.m */,
+				0412CB1F273963D50045E857 /* LongCommentTableViewCell.h */,
+				0412CB20273963D50045E857 /* LongCommentTableViewCell.m */,
+				0412CB66273B4C970045E857 /* ReplyCommentTableViewCell.h */,
+				0412CB67273B4C970045E857 /* ReplyCommentTableViewCell.m */,
+			);
+			name = CommentView;
+			path = "New Group/CommentView";
+			sourceTree = "<group>";
+		};
+		047FDB1727341403001F8019 /* CommentModel */ = {
+			isa = PBXGroup;
+			children = (
+				0412CB1627358F3E0045E857 /* LongCommentModel.h */,
+				0412CB1727358F3E0045E857 /* LongCommentModel.m */,
+			);
+			name = CommentModel;
+			path = "New Group/New Group/CommentModel";
+			sourceTree = "<group>";
+		};
+		04DFDB3A272EA6FC0035987C /* WEBPAGE */ = {
+			isa = PBXGroup;
+			children = (
+				04DFDB3E272EA74C0035987C /* WebPageModel */,
+				04DFDB43272EA7970035987C /* WebPageView */,
+				04DFDB3F272EA7610035987C /* WebPageViewController */,
+			);
+			path = WEBPAGE;
+			sourceTree = "<group>";
+		};
+		04DFDB3E272EA74C0035987C /* WebPageModel */ = {
+			isa = PBXGroup;
+			children = (
+				0412CB6F273CFF060045E857 /* WebPageModel.h */,
+				0412CB70273CFF060045E857 /* WebPageModel.m */,
+				041416F5273FE9AF004F5980 /* WebPageCollectionModel.h */,
+				041416F6273FE9AF004F5980 /* WebPageCollectionModel.m */,
+			);
+			path = WebPageModel;
+			sourceTree = "<group>";
+		};
+		04DFDB3F272EA7610035987C /* WebPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04DFDB40272EA7900035987C /* WebPageViewController.h */,
+				04DFDB41272EA7900035987C /* WebPageViewController.m */,
+			);
+			path = WebPageViewController;
+			sourceTree = "<group>";
+		};
+		04DFDB43272EA7970035987C /* WebPageView */ = {
+			isa = PBXGroup;
+			children = (
+				04DFDB44272EA7AE0035987C /* WebPageView.h */,
+				04DFDB45272EA7AE0035987C /* WebPageView.m */,
+			);
+			path = WebPageView;
+			sourceTree = "<group>";
+		};
+		04F35E80271F0244003AD525 = {
+			isa = PBXGroup;
+			children = (
+				04F35E8B271F0244003AD525 /* 知乎日报 */,
+				04F35EA7271F0246003AD525 /* 知乎日报Tests */,
+				04F35EB2271F0246003AD525 /* 知乎日报UITests */,
+				04F35E8A271F0244003AD525 /* Products */,
+				C527503ECC76A94295A7F1B8 /* Pods */,
+				847B7BDF7CAF255BD9C2E228 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F35E8A271F0244003AD525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F35E89271F0244003AD525 /* 知乎日报.app */,
+				04F35EA4271F0246003AD525 /* 知乎日报Tests.xctest */,
+				04F35EAF271F0246003AD525 /* 知乎日报UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F35E8B271F0244003AD525 /* 知乎日报 */ = {
+			isa = PBXGroup;
+			children = (
+				0412CB73273D16C00045E857 /* 图片 */,
+				04F35EC1271F060F003AD525 /* HOME */,
+				04F35EC5271FF875003AD525 /* PERSONAL */,
+				0412CB72273D16860045E857 /* COLLECTION */,
+				04DFDB3A272EA6FC0035987C /* WEBPAGE */,
+				047FDB14273413E5001F8019 /* COMMENT */,
+				04F35E8C271F0244003AD525 /* AppDelegate.h */,
+				04F35E8D271F0244003AD525 /* AppDelegate.m */,
+				04F35E8F271F0244003AD525 /* SceneDelegate.h */,
+				04F35E90271F0244003AD525 /* SceneDelegate.m */,
+				04F35E92271F0244003AD525 /* ViewController.h */,
+				04F35E93271F0244003AD525 /* ViewController.m */,
+				04F35E98271F0246003AD525 /* Assets.xcassets */,
+				04F35E95271F0244003AD525 /* Main.storyboard */,
+				04F35E9A271F0246003AD525 /* LaunchScreen.storyboard */,
+				04F35E9D271F0246003AD525 /* Info.plist */,
+				04F35E9E271F0246003AD525 /* main.m */,
+			);
+			path = "知乎日报";
+			sourceTree = "<group>";
+		};
+		04F35EA7271F0246003AD525 /* 知乎日报Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04F35EA8271F0246003AD525 /* ____Tests.m */,
+				04F35EAA271F0246003AD525 /* Info.plist */,
+			);
+			path = "知乎日报Tests";
+			sourceTree = "<group>";
+		};
+		04F35EB2271F0246003AD525 /* 知乎日报UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F35EB3271F0246003AD525 /* ____UITests.m */,
+				04F35EB5271F0246003AD525 /* Info.plist */,
+			);
+			path = "知乎日报UITests";
+			sourceTree = "<group>";
+		};
+		04F35EC1271F060F003AD525 /* HOME */ = {
+			isa = PBXGroup;
+			children = (
+				04F35ED8272015D4003AD525 /* Manager.h */,
+				04F35ED9272015D4003AD525 /* Manager.m */,
+				04F35EC2271F061B003AD525 /* HomeModel */,
+				04F35EC3271F0638003AD525 /* HomeView */,
+				04F35EC4271F0649003AD525 /* HomeController */,
+			);
+			path = HOME;
+			sourceTree = "<group>";
+		};
+		04F35EC2271F061B003AD525 /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				04F35EDB27201A9A003AD525 /* HomeModel.h */,
+				04F35EDC27201A9A003AD525 /* HomeModel.m */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		04F35EC3271F0638003AD525 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				04F35EC9271FF8BD003AD525 /* HomeView.h */,
+				04F35ECA271FF8BD003AD525 /* HomeView.m */,
+				04F35EE12721478B003AD525 /* ArticalTableViewCell.h */,
+				04F35EE22721478B003AD525 /* ArticalTableViewCell.m */,
+				04DFDB35272C154B0035987C /* TimeTableViewCell.h */,
+				04DFDB36272C154B0035987C /* TimeTableViewCell.m */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		04F35EC4271F0649003AD525 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				04F35ECF27200E72003AD525 /* HomeViewController.h */,
+				04F35ED027200E72003AD525 /* HomeViewController.m */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		04F35EC5271FF875003AD525 /* PERSONAL */ = {
+			isa = PBXGroup;
+			children = (
+				04F35EF327286C07003AD525 /* PersonalModel */,
+				04F35EF227286C05003AD525 /* PersonalView */,
+				04F35EF127286C00003AD525 /* PersonalController */,
+			);
+			path = PERSONAL;
+			sourceTree = "<group>";
+		};
+		04F35EF127286C00003AD525 /* PersonalController */ = {
+			isa = PBXGroup;
+			children = (
+				04F35EF727286DE4003AD525 /* PersonalViewController.h */,
+				04F35EF827286DE4003AD525 /* PersonalViewController.m */,
+			);
+			path = PersonalController;
+			sourceTree = "<group>";
+		};
+		04F35EF227286C05003AD525 /* PersonalView */ = {
+			isa = PBXGroup;
+			children = (
+				04F35EF427286C51003AD525 /* PersonalView.h */,
+				04F35EF527286C51003AD525 /* PersonalView.m */,
+			);
+			path = PersonalView;
+			sourceTree = "<group>";
+		};
+		04F35EF327286C07003AD525 /* PersonalModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersonalModel;
+			sourceTree = "<group>";
+		};
+		847B7BDF7CAF255BD9C2E228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4091334965CE0C14BEB4E8C /* libPods-知乎日报.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C527503ECC76A94295A7F1B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09D20B6CFB4E45336B63D43C /* Pods-知乎日报.debug.xcconfig */,
+				24E9974727D6AD1D794B0DE6 /* Pods-知乎日报.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F35E88271F0244003AD525 /* 知乎日报 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F35EB8271F0246003AD525 /* Build configuration list for PBXNativeTarget "知乎日报" */;
+			buildPhases = (
+				0857B9C23E17A7AE5718D1B2 /* [CP] Check Pods Manifest.lock */,
+				04F35E85271F0244003AD525 /* Sources */,
+				04F35E86271F0244003AD525 /* Frameworks */,
+				04F35E87271F0244003AD525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "知乎日报";
+			productName = "知乎日报";
+			productReference = 04F35E89271F0244003AD525 /* 知乎日报.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F35EA3271F0246003AD525 /* 知乎日报Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F35EBB271F0246003AD525 /* Build configuration list for PBXNativeTarget "知乎日报Tests" */;
+			buildPhases = (
+				04F35EA0271F0246003AD525 /* Sources */,
+				04F35EA1271F0246003AD525 /* Frameworks */,
+				04F35EA2271F0246003AD525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F35EA6271F0246003AD525 /* PBXTargetDependency */,
+			);
+			name = "知乎日报Tests";
+			productName = "知乎日报Tests";
+			productReference = 04F35EA4271F0246003AD525 /* 知乎日报Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F35EAE271F0246003AD525 /* 知乎日报UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F35EBE271F0246003AD525 /* Build configuration list for PBXNativeTarget "知乎日报UITests" */;
+			buildPhases = (
+				04F35EAB271F0246003AD525 /* Sources */,
+				04F35EAC271F0246003AD525 /* Frameworks */,
+				04F35EAD271F0246003AD525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F35EB1271F0246003AD525 /* PBXTargetDependency */,
+			);
+			name = "知乎日报UITests";
+			productName = "知乎日报UITests";
+			productReference = 04F35EAF271F0246003AD525 /* 知乎日报UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F35E81271F0244003AD525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04F35E88271F0244003AD525 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					04F35EA3271F0246003AD525 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04F35E88271F0244003AD525;
+					};
+					04F35EAE271F0246003AD525 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04F35E88271F0244003AD525;
+					};
+				};
+			};
+			buildConfigurationList = 04F35E84271F0244003AD525 /* Build configuration list for PBXProject "知乎日报" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F35E80271F0244003AD525;
+			productRefGroup = 04F35E8A271F0244003AD525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F35E88271F0244003AD525 /* 知乎日报 */,
+				04F35EA3271F0246003AD525 /* 知乎日报Tests */,
+				04F35EAE271F0246003AD525 /* 知乎日报UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F35E87271F0244003AD525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0412CB6C273C09030045E857 /* dianzan-4.png in Resources */,
+				047FDB1327341004001F8019 /* shoucang-2.png in Resources */,
+				047FDB0927316823001F8019 /* shoucang.png in Resources */,
+				04F35EED2728690A003AD525 /* pic5.jpg in Resources */,
+				0412CB6A273C08FD0045E857 /* dianzan-3.png in Resources */,
+				0412CB6E273C09080045E857 /* pinglun.png in Resources */,
+				04F35E9C271F0246003AD525 /* LaunchScreen.storyboard in Resources */,
+				047FDB05273167F8001F8019 /* dianzan.png in Resources */,
+				047FDB0F27316B81001F8019 /* daipingjia.png in Resources */,
+				04F35E99271F0246003AD525 /* Assets.xcassets in Resources */,
+				04DFDB39272C55A50035987C /* grayPic.jpg in Resources */,
+				047FDB0D27316A51001F8019 /* fenxiang.png in Resources */,
+				04F35EFB2728729A003AD525 /* fanhui.png in Resources */,
+				047FDB1127340EE5001F8019 /* dianzan-2.png in Resources */,
+				04F35E97271F0244003AD525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F35EA2271F0246003AD525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F35EAD271F0246003AD525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0857B9C23E17A7AE5718D1B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-知乎日报-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F35E85271F0244003AD525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F35EE32721478B003AD525 /* ArticalTableViewCell.m in Sources */,
+				04F35EDD27201A9A003AD525 /* HomeModel.m in Sources */,
+				04F35E94271F0244003AD525 /* ViewController.m in Sources */,
+				041416F7273FE9AF004F5980 /* WebPageCollectionModel.m in Sources */,
+				04F35E8E271F0244003AD525 /* AppDelegate.m in Sources */,
+				041416FA2740365E004F5980 /* CollectionTableViewCell.m in Sources */,
+				04F35ECB271FF8BD003AD525 /* HomeView.m in Sources */,
+				0412CB71273CFF060045E857 /* WebPageModel.m in Sources */,
+				0412CB1827358F3E0045E857 /* LongCommentModel.m in Sources */,
+				047FDB1A2734143B001F8019 /* CommentView.m in Sources */,
+				04DFDB37272C154B0035987C /* TimeTableViewCell.m in Sources */,
+				04F35E9F271F0246003AD525 /* main.m in Sources */,
+				04F35EF927286DE4003AD525 /* PersonalViewController.m in Sources */,
+				0412CB68273B4C970045E857 /* ReplyCommentTableViewCell.m in Sources */,
+				047FDB1D2734144D001F8019 /* CommentViewController.m in Sources */,
+				04DFDB42272EA7900035987C /* WebPageViewController.m in Sources */,
+				04F35E91271F0244003AD525 /* SceneDelegate.m in Sources */,
+				04F35EF627286C51003AD525 /* PersonalView.m in Sources */,
+				04F35ED127200E72003AD525 /* HomeViewController.m in Sources */,
+				04DFDB46272EA7AE0035987C /* WebPageView.m in Sources */,
+				04F35EDA272015D4003AD525 /* Manager.m in Sources */,
+				0412CB7A273D17CD0045E857 /* CollectionViewController.m in Sources */,
+				0412CB21273963D50045E857 /* LongCommentTableViewCell.m in Sources */,
+				0412CB7D273D17E30045E857 /* CollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F35EA0271F0246003AD525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F35EA9271F0246003AD525 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F35EAB271F0246003AD525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F35EB4271F0246003AD525 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F35EA6271F0246003AD525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F35E88271F0244003AD525 /* 知乎日报 */;
+			targetProxy = 04F35EA5271F0246003AD525 /* PBXContainerItemProxy */;
+		};
+		04F35EB1271F0246003AD525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F35E88271F0244003AD525 /* 知乎日报 */;
+			targetProxy = 04F35EB0271F0246003AD525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F35E95271F0244003AD525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F35E96271F0244003AD525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F35E9A271F0246003AD525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F35E9B271F0246003AD525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F35EB6271F0246003AD525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F35EB7271F0246003AD525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F35EB9271F0246003AD525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D20B6CFB4E45336B63D43C /* Pods-知乎日报.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6393BBMNNK;
+				INFOPLIST_FILE = "知乎日报/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GGGGGG.ZhiHuRiBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F35EBA271F0246003AD525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E9974727D6AD1D794B0DE6 /* Pods-知乎日报.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6393BBMNNK;
+				INFOPLIST_FILE = "知乎日报/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GGGGGG.ZhiHuRiBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F35EBC271F0246003AD525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "知乎日报Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GGGGGG.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/知乎日报.app/知乎日报";
+			};
+			name = Debug;
+		};
+		04F35EBD271F0246003AD525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "知乎日报Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GGGGGG.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/知乎日报.app/知乎日报";
+			};
+			name = Release;
+		};
+		04F35EBF271F0246003AD525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "知乎日报UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GGGGGG.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "知乎日报";
+			};
+			name = Debug;
+		};
+		04F35EC0271F0246003AD525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "知乎日报UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GGGGGG.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "知乎日报";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F35E84271F0244003AD525 /* Build configuration list for PBXProject "知乎日报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F35EB6271F0246003AD525 /* Debug */,
+				04F35EB7271F0246003AD525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F35EB8271F0246003AD525 /* Build configuration list for PBXNativeTarget "知乎日报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F35EB9271F0246003AD525 /* Debug */,
+				04F35EBA271F0246003AD525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F35EBB271F0246003AD525 /* Build configuration list for PBXNativeTarget "知乎日报Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F35EBC271F0246003AD525 /* Debug */,
+				04F35EBD271F0246003AD525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F35EBE271F0246003AD525 /* Build configuration list for PBXNativeTarget "知乎日报UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F35EBF271F0246003AD525 /* Debug */,
+				04F35EC0271F0246003AD525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F35E81271F0244003AD525 /* Project object */;
+}
